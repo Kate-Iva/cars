@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car repare</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <!-------------Header__block------------->
+    <header class="header">
+        <div class="container">
+
+           <div class="header__wrapper">
+            
+              <div class="header__block__logo">
+                 <a href="/" class="header__logo">
+                   <img src="images/logo 1.svg">
+                 </a>
+              </div>
+                 <nav class="nav" class="header__block__nav">
+                    <a href="/" class="nav__link">Main</a>
+                    <a href="/" class="nav__link">Our services</a>
+                    <a href="/" class="nav__link">About</a>
+                    <a href="/" class="nav__link">Contacts</a>
+                 </nav>
+          
+                  <div class="header__lng" class="header__block__lng">
+                    <a href="/" class="header__lng-link">PT</a>
+                    <a href="/" class="header__lng-link">EN</a>
+                 </div>
+            </div>
+        </div>
+</header>
+        <!-------------------Main------------------>
+        <main>
+          <svg
+  aria-hidden="true"
+  style="position: absolute; width: 0; height: 0; overflow: hidden"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <symbol id="phone-icon" viewBox="0 0 32 32">
+      <path d="M27.5928 19.6916C25.7561 19.6916 23.9527 19.4043 22.2437 18.8395C21.4062 18.5539 20.3768 18.8159 19.8657 19.3409L16.4925 21.8873C12.5805 19.7991 10.1709 17.3902 8.11117 13.5076L10.5827 10.2223C11.2248 9.58102 11.4551 8.6443 11.1791 7.76539C10.612 6.04742 10.3238 4.24484 10.3238 2.40734C10.3239 1.07992 9.24398 0 7.91664 0H2.40727C1.07992 0 0 1.07992 0 2.40727C0 17.6221 12.378 30 27.5928 30C28.9202 30 30.0001 28.9201 30.0001 27.5927V22.0988C30 20.7715 28.9201 19.6916 27.5928 19.6916Z" fill="black"/>
+    </symbol>
+
+    <symbol id="calendar-icon" viewBox="0 0 32 32">
+      <path d="M26.4844 2.34375H25.0781V0H22.7344V2.34375H7.26562V0H4.92188V2.34375H3.51562C1.57711 2.34375 0 3.92086 0 5.85938V26.4844C0 28.4229 1.57711 30 3.51562 30H26.4844C28.4229 30 30 28.4229 30 26.4844V5.85938C30 3.92086 28.4229 2.34375 26.4844 2.34375ZM27.6562 26.4844C27.6562 27.1305 27.1305 27.6562 26.4844 27.6562H3.51562C2.86945 27.6562 2.34375 27.1305 2.34375 26.4844V11.0156H27.6562V26.4844ZM27.6562 8.67188H2.34375V5.85938C2.34375 5.2132 2.86945 4.6875 3.51562 4.6875H4.92188V7.03125H7.26562V4.6875H22.7344V7.03125H25.0781V4.6875H26.4844C27.1305 4.6875 27.6562 5.2132 27.6562 5.85938V8.67188Z" fill="black"/>
+      <path d="M6.79688 13.4766H4.45312V15.8203H6.79688V13.4766Z" fill="black"/>
+      <path d="M11.4844 13.4766H9.14062V15.8203H11.4844V13.4766Z" fill="black"/>
+      <path d="M16.1719 13.4766H13.8281V15.8203H16.1719V13.4766Z" fill="black"/>
+      <path d="M20.8594 13.4766H18.5156V15.8203H20.8594V13.4766Z" fill="black"/>
+      <path d="M25.5469 13.4766H23.2031V15.8203H25.5469V13.4766Z" fill="black"/>
+      <path d="M6.79688 18.1641H4.45312V20.5078H6.79688V18.1641Z" fill="black"/>
+      <path d="M11.4844 18.1641H9.14062V20.5078H11.4844V18.1641Z" fill="black"/>
+      <path d="M16.1719 18.1641H13.8281V20.5078H16.1719V18.1641Z" fill="black"/>
+      <path d="M20.8594 18.1641H18.5156V20.5078H20.8594V18.1641Z" fill="black"/>
+      <path d="M6.79688 22.8516H4.45312V25.1953H6.79688V22.8516Z" fill="black"/>
+      <path d="M11.4844 22.8516H9.14062V25.1953H11.4844V22.8516Z" fill="black"/>
+      <path d="M16.1719 22.8516H13.8281V25.1953H16.1719V22.8516Z" fill="black"/>
+    </symbol>
+    
+    <symbol id="map-icon" viewBox="0 0 32 32">
+      <path d="M15.0001 0C9.0092 0 4.13525 4.87394 4.13525 10.8648C4.13525 18.2996 13.8582 29.2144 14.2722 29.6754C14.661 30.1085 15.3399 30.1078 15.728 29.6754C16.142 29.2144 25.865 18.2996 25.865 10.8648C25.8649 4.87394 20.991 0 15.0001 0ZM15.0001 16.3312C11.9859 16.3312 9.53379 13.879 9.53379 10.8648C9.53379 7.85062 11.986 5.39848 15.0001 5.39848C18.0142 5.39848 20.4664 7.85068 20.4664 10.8649C20.4664 13.879 18.0142 16.3312 15.0001 16.3312Z" fill="black"/>
+
+    </symbol>
+  </defs>
+</svg>
+<!---------------KEEPING--------------->
+<section class="keeping">
+  <div class="container">
+<h1 class="keeping-title"> KEEPING YOU ON THE ROAD WITH <br /> 
+  SERVICE YOU CAN TRUST
+</h1>
+<button class="keeping-btn" type="button">Show more</button>
+<address class="keeping-address">
+<ul class="keeping-list">
+  <!-------phone-icon--------------->
+  <li class="keeping-list-item">
+    <a href="/" target="_blank" class="keeping-icon-link">
+      <svg
+      class="address-icon"
+      width="30"
+      height="30"
+      viewBox="0 0 32 32"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+       <use href="#phone-icon"></use>
+    </svg></a>
+    <a href="/" class="keeping-link">CALL US NOW 222-222-222</a>
+    <p class="keeping-text">Feel free to call us</p>
+  </li>
+<!---------calendar-icon--------------->
+  <li class="keeping-list-item">
+    
+    <a href="/" target="_blank" class="keeping-icon-link"><svg
+      class="address-icon"
+      width="30"
+      height="30"
+      viewBox="0 0 32 32"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+       <use href="#calendar-icon"></use>
+    </svg></a>
+<!---------map-icon--------------->
+    <a href="/" class="keeping-link">GET FREE APPOITMET</a>
+    <p class="keeping-text">Free Diagnosis & Brake Checks</p>
+  </li>
+  <li class="keeping-list-item">
+    
+    <a href="/" target="_blank" class="keeping-icon-link">
+      <svg
+      class="address-icon"
+      width="30"
+      height="30"
+      viewBox="0 0 32 32"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+       <use href="#map-icon"></use>
+    </svg></a>
+    <a href="/" class="keeping-link">FIND US ON MAP</a>
+    <p class="keeping-text">New York, 1286 Ruumu Nanor</p>
+  </li>
+</ul>
+</address>
+</div>
+</section>
+<!-------------SERVICES------------->
+<section class="services">
+  <div class="container">
+<h2 class="services-title">OUR SERVICES</h2>
+<p class="services-text-item">VIEW ALL SERVICES</p>
+
+<ul class="services-list">
+  <li class="services-list-item">
+    <img class="services-img" src="./images/section_2/2_1.jpg" alt="DIAGNOSTIC">
+    <p class="services-text">DIAGNOSTIC</p>
+  </li>
+
+  <li class="services-list-item">
+    <img class="services-img" src="./images/section_2/2_2.jpg" alt="TIRES & WHEELS">
+    <p class="services-text">TIRES & WHEELS</p>
+  </li>
+
+  <li class="services-list-item">
+    <img class="services-img" src="./images/section_2/2_3.jpg" alt="ENGINES">
+    <p class="services-text">ENGINES</p>
+  </li>
+</ul>
+
+  </div>
+</section>
+<!-------------IMPORTANT------------->
+<section class="important">
+  <div class="container important-container">
+<div class="important-block">
+  <h2 class="important-title">WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE</h2>
+  <p class="important-text">Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won’t have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.
+<p class="important-text-item">MORE ABOUT US</p>
+  </p>
+</div>
+
+  <img class="important-img" src="./images/section_3/3_1.jpg" alt="AUTO SERVICE"/>
+
+  </div>
+</section>
+
+<!-------------PROCESS------------->
+<section class="process">
+  <div class="container process-container">
+    <p class="process-text-item">FAST & EASY </p>
+<h2 class="process-title">our work process</h2>
+<ul class="process-list">
+<li class="process-list-item">
+  <h3 class="process-subtitle">1. Request your quote</h3>
+  <p class="process-list-text">We will be there when you most need us </p>
+</li>
+
+<li class="process-list-item">
+  <h3 class="process-subtitle">2. BRING YOUR VEHICLE</h3>
+  <p class="process-list-text">We are car guys at heart</p>
+</li>
+
+<li class="process-list-item">
+  <h3 class="process-subtitle">3. GET IT REPAIRED</h3>
+  <p class="process-list-text">High quality, low cost car servicing</p>
+</li>
+
+</ul>
+  </div>
+</section>
+<!-------------CONTACT------------->
+
+<section class="contact">
+  <div class="container contact-container">
+<h2 class="contact-title">Contact us</h2>
+
+<ul class="contact-list">
+  <li class="contact-list-item">
+    <p>Name......................</p>
+  </li>
+  <li class="contact-list-item">
+    <p>Last name......................</p>
+  </li>
+</ul>
+
+  <ul class="contact-list">
+    <li class="contact-list-item">
+      <p>Email......................</p>
+    </li>
+    <li class="contact-list-item">
+      <p>Phone.......................</p>
+    </li>
+  </ul>
+
+  <p class="contact-text">Message</p>
+  
+  <button class="keeping-btn" type="button">Send</button>
+  </div>
+</section>
+
+        </main>
+
+        <!-------------FOOTER------------>
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">© 2021 Auto theme by Frontend Tricks</p>
+
+    
+
+  </div>
+
+</footer>
+    
+</body>
+</html>
